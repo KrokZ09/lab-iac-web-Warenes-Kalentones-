@@ -1,0 +1,57 @@
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+
+# Variables sensibles
+*.tfvars
+terraform.tfvars
+
+# =========================
+# AWS / Credenciales
+# =========================
+.aws/
+*.pem
+*.key
+
+# =========================
+# Python (Lambda)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Dependencias empaquetadas
+# =========================
+*.zip
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Editor / SO
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node (por si acaso)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# Entornos
+# =========================
+.env
+.env.*
